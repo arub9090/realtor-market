@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';

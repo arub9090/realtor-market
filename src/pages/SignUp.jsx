@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import {getAuth, createUserWithEmailAndPassword,updateProfile} from "firebase/auth";

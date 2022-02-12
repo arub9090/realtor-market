@@ -30,7 +30,12 @@ function App() {
       </Route>
       <Route path='/sign-in' element={<SignIn />}/>
       <Route path='/sign-up' element={<SignUp />}/>
+
+      <Route path='/category/:categoryName/:listingId' element={<PrivateRoute />}>
       <Route path='/category/:categoryName/:listingId' element={<Listing />} />
+      </Route>
+
+      
       <Route path='/create-listing' element={<CreateListing />}/>
       <Route path='/edit-listing/:listingId' element={<EditListing />}/>
       <Route path='/contact/:landlordId' element={<Contact />} />

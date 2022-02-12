@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <footer className="navbar">
+    <footer className="navbar"  style={{'margin-top': '20%'}}>
       <nav className="navbarNav">
         <ul className="navbarListItems">
           <li className="navbarListItem">

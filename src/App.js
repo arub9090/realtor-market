@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+
 import Navbar from './components/Navbar';
 import PrivateRoute from './components/PrivateRoute';
 import Category from './pages/Category';
@@ -34,7 +35,6 @@ function App() {
       <Route path='/category/:categoryName/:listingId' element={<PrivateRoute />}>
       <Route path='/category/:categoryName/:listingId' element={<Listing />} />
       </Route>
-
       
       <Route path='/create-listing' element={<CreateListing />}/>
       <Route path='/edit-listing/:listingId' element={<EditListing />}/>

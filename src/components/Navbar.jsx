@@ -14,7 +14,8 @@ function Navbar() {
   };
 
   return (
-    <footer className="navbar"  style={{'margin-top': '20%'}}>
+    <div style={{marginTop: 120}}>
+      <footer className="navbar">
       <nav className="navbarNav">
         <ul className="navbarListItems">
           <li className="navbarListItem">
@@ -71,6 +72,7 @@ function Navbar() {
         </ul>
       </nav>
     </footer>
+    </div>
   );
 }
 
